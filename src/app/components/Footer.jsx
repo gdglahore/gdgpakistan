@@ -1,4 +1,5 @@
 import { ContainerInner, ContainerOuter } from "@/app/components/Container";
+import Link from "next/link";
 
 // function NavLink({ href, children }) {
 //   return (
@@ -8,15 +9,23 @@ import { ContainerInner, ContainerOuter } from "@/app/components/Container";
 //   )
 // }
 
-export function Footer({ navItems }) {
+export function Footer() {
   return (
-    <footer className="mt-32 flex-none">
+    <footer className="mt-30 flex-none">
       <ContainerOuter>
         <div className="border-t border-zinc-100 pb-16 pt-10">
           <ContainerInner>
             <p className="text-sm text-zinc-400">
-              &copy; {new Date().getFullYear()} Developed by GDG Lahore. All
-              rights reserved.
+              &copy; {new Date().getFullYear()} Developed with ❤️ by{" "}
+              <Link
+                href="https://www.gdglahore.com"
+                className="underline"
+                target="_blank"
+              >
+                {" "}
+                GDG Lahore
+              </Link>
+              . All rights reserved.
             </p>
           </ContainerInner>
         </div>

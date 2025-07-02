@@ -24,7 +24,7 @@ const PLATFORMS = {
   },
   linkedin: {
     name: "LinkedIn",
-    baseUrl: "https://linkedin.com/",
+    baseUrl: "https://linkedin.com/company/",
     icon: LinkedInIcon,
   },
   instagram: {
@@ -54,23 +54,16 @@ const PLATFORMS = {
   },
 };
 
-export function SocialLink({
-  platform,
-  username,
-  gdglahore = false,
-  caption = false,
-  ...props
-}) {
+export function SocialLink({ social, caption = false, ...props }) {
+  const [platform, username] = Object.entries(social)[0];
+
   const { baseUrl, icon: Icon } = PLATFORMS[platform];
   const captionText = buildCaption(caption, platform);
-
-  const url =
-    gdglahore || username === "gdglahore"
-      ? `/${platform}`
-      : `${baseUrl}${username}`;
+  const url = `${baseUrl}${username}`;
 
   return (
     <Link
+      key={platform}
       className="group flex flex-row"
       href={url}
       aria-label={captionText}
