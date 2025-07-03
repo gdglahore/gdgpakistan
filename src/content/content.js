@@ -2,7 +2,7 @@ import CloudIslamabad from "@/content/chapter-logos/cloudislamabad.jpg";
 import CloudLahore from "@/content/chapter-logos/cloudlahore.jpg";
 import GDGIslamabad from "@/content/chapter-logos/gdgislamabad.png";
 import GDGKolachi from "@/content/chapter-logos/gdgkolachi.png";
-import GDGLahore from "@/content/chapter-logos/gdglahore1.jpg";
+import GDGLahore from "@/content/chapter-logos/gdglahore.jpg";
 import GDGLivePakistan from "@/content/chapter-logos/gdglivepak.png";
 import GDGPeshawar from "@/content/chapter-logos/gdgpeshawar.jpg";
 import WTMIslamabad from "@/content/chapter-logos/wtmislamabad.png";
@@ -36,7 +36,6 @@ export const DETAILS = {
         { linkedin: "gdglahore" },
         { youtube: "gdglahore" },
         { whatsapp: "HrtFfbCo6h73A2SrhgRwHj" },
-        // 'github',
       ],
     },
     {
@@ -50,36 +49,32 @@ export const DETAILS = {
         { instagram: "googledevs_isb" },
         { linkedin: "googledevsisb" },
         { whatsapp: "Ioqbn5Ph6zS7CBMf901QwN" },
-        // 'github',
       ],
     },
     {
       name: "GDG Kolachi",
       logo: GDGKolachi,
       description: "City of Lights modern tech network",
-      link: "https://www.gdglahore.com",
+      link: "https://gdgkolachi.com/",
 
       socials: [
-        { facebook: "GDGLahore" },
-        { instagram: "gdglahore" },
-        { linkedin: "gdglahore" },
-        { youtube: "gdglahore" },
-        { whatsapp: "HrtFfbCo6h73A2SrhgRwHj" },
-        // 'github',
+        { facebook: "GDGKolachi" },
+        { instagram: "GDGKolachi" },
+        { linkedin: "gdgkolachi" },
+        { youtube: "gdgkolachi" },
       ],
     },
     {
       name: "GDG Peshawar",
       logo: GDGPeshawar,
       description: "Growing tech community in KPK",
-      link: "https://www.gdglahore.com",
+      link: "https://gdg.community.dev/gdg-peshawar/",
 
       socials: [
-        { facebook: "GDGLahore" },
-        { instagram: "gdglahore" },
-        { linkedin: "gdglahore" },
-        { youtube: "gdglahore" },
-        { whatsapp: "HrtFfbCo6h73A2SrhgRwHj" },
+        { facebook: "GDGPeshawar" },
+        { instagram: "gdgpeshawar" },
+        { linkedin: "gdgpeshawar" },
+        { whatsapp: "D7P32jv9yqmDrp8Lar9fGu" },
         // 'github',
       ],
     },
