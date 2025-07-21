@@ -5,6 +5,10 @@ GDG Pakistan
 
 Visit https://gdgpakistan.com to view the chapters.
 
+<br>
+
+
+
 
 ## Updating Chapter Information
 
@@ -13,40 +17,65 @@ and anything else related to the chapter. To expedite PR approval, the chapter l
 contacting the [GDG Lahore][gdglahore] team through the official `GDG/WTM Leads` WhatsApp group or reaching out to the lead
 through their official/verified WhatsApp numbers.
 
+<br>
+
+
+
 
 ## Local Development
 
 This is a [Next.js][nextjs] application and uses [Tailwind][tailwind] for styling. For local development, you need
 [Node.js][nodejs] installed. We recommend using [`asdf`][asdf] version manager for this.
 
-After you have installed `asdf`, run the following to install the correct version of Node:
+After you have installed `asdf`, run the following:
 
-```bash
-asdf install
+```sh
+# Install correct version of Node.js
+$ asdf install
+
+# Install the dependencies
+$ npm install
+
+# Start local server for development at https://localhost:3000
+$ npm run dev
+
+# Export the static site for deployment
+$ npm run build
 ```
 
-Then install the dependencies:
+<br>
 
-```bash
-npm install
-```
 
-To run the local server for development:
 
-```bash
-npm run dev
-```
 
-To export the static site for deployment:
+## Contributing
 
-```bash
-npm run build
-```
+ - [Fork][github-fork], Enhance, Send PR
+ - Lock issues with any bugs or feature requests
+ - Implement something from Roadmap
+ - Spread the word :heart:
+
+<br>
+
+
 
 
 ## Built with ❤️ by GDG Lahore
 
 This project is proudly built and managed by [GDG Lahore][gdglahore]. Lead developer is [Salman Arif][salman].
+
+<br>
+
+
+
+
+## License
+
+This package is available as open source under the terms of the [MIT License][license].
+
+<br>
+
+
 
 
 [asdf]: https://github.com/asdf-vm/asdf/
@@ -56,3 +85,5 @@ This project is proudly built and managed by [GDG Lahore][gdglahore]. Lead devel
 [contentjs]: https://github.com/gdglahore/gdgpakistan/blob/main/src/content/content.js
 [gdglahore]: https://gdglahore.com
 [salman]: https://x.com/maani_mir
+[license]: ./LICENSE
+[github-fork]: https://github.com/gdglahore/gdgpakistan/fork
