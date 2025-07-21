@@ -55,11 +55,11 @@ const PLATFORMS = {
 };
 
 export function SocialLink({ social, caption = false, ...props }) {
-  const [platform, username] = Object.entries(social)[0];
+  const [platform, value] = Object.entries(social)[0];
 
   const { baseUrl, icon: Icon } = PLATFORMS[platform];
   const captionText = buildCaption(caption, platform);
-  const url = `${baseUrl}${username}`;
+  const url = typeof value === "string" ? `${baseUrl}${value}` : value.url;
 
   return (
     <Link

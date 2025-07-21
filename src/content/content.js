@@ -31,11 +31,11 @@ export const DETAILS = {
       description: "Cultural capital's developer-focused community",
       link: "https://www.gdglahore.com",
       socials: [
-        { facebook: "GDGLahore" },
-        { instagram: "gdglahore" },
-        { linkedin: "gdglahore" },
-        { youtube: "gdglahore" },
-        { whatsapp: "HrtFfbCo6h73A2SrhgRwHj" },
+        { facebook: { url: "https://gdglahore.com/facebook" } },
+        { instagram: { url: "https://gdglahore.com/instagram" } },
+        { linkedin: { url: "https://gdglahore.com/linkedin" } },
+        { youtube: { url: "https://gdglahore.com/youtube" } },
+        { whatsapp: { url: "https://gdglahore.com/whatsapp" } },
       ],
     },
     {
