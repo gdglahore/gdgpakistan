@@ -1,36 +1,91 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+GDG Pakistan
+============
 
-## Getting Started
+> List of all Google communities and developer chapters in Pakistan.
 
-First, run the development server:
+Visit https://gdgpakistan.com to view the chapters.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+<br>
+
+
+
+
+## Updating Chapter Information
+
+Please send a PR with changes to [`src/content`][contentjs]. The PR can include new logo, updated description, social handles,
+and anything else related to the chapter.
+
+To expedite PR approval, the chapter lead can verify the requested changes by contacting the [GDG Lahore][gdglahore] team
+through the official `GDG/WTM Leads` WhatsApp group or reaching out to the lead through their official/verified WhatsApp
+numbers.
+
+<br>
+
+
+
+
+## Local Development
+
+This is a [Next.js][nextjs] application and uses [Tailwind][tailwind] for styling. For local development, you need
+[Node.js][nodejs] installed. We recommend using [`asdf`][asdf] version manager for this.
+
+After you have installed `asdf`, run the following:
+
+```sh
+# Install correct version of Node.js
+$ asdf install
+
+# Install the dependencies
+$ npm install
+
+# Start local server for development at https://localhost:3000
+$ npm run dev
+
+# Export the static site for deployment
+$ npm run build
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+<br>
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+## Contributing
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+ - [Fork][github-fork], Enhance, Send PR
+ - Lock issues with any bugs or feature requests
+ - Implement something from Roadmap
+ - Spread the word :heart:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+<br>
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+## Built with ❤️ by GDG Lahore
+
+This project is proudly built and managed by [GDG Lahore][gdglahore]. Lead developer is [Salman Arif][salman].
+
+<br>
+
+
+
+
+## License
+
+This package is available as open source under the terms of the [MIT License][license].
+
+<br>
+
+
+
+
+[asdf]: https://github.com/asdf-vm/asdf/
+[nextjs]: https://nextjs.org
+[nodejs]: https://nodejs.org
+[tailwind]: https://tailwindcss.com/
+[contentjs]: https://github.com/gdglahore/gdgpakistan/blob/main/src/content/content.js
+[gdglahore]: https://gdglahore.com
+[salman]: https://x.com/maani_mir
+[license]: ./LICENSE
+[github-fork]: https://github.com/gdglahore/gdgpakistan/fork
