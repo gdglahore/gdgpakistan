@@ -13,9 +13,11 @@ Visit https://gdgpakistan.com to view the chapters.
 ## Updating Chapter Information
 
 Please send a PR with changes to [`src/content`][contentjs]. The PR can include new logo, updated description, social handles,
-and anything else related to the chapter. To expedite PR approval, the chapter lead can verify the requested changes by
-contacting the [GDG Lahore][gdglahore] team through the official `GDG/WTM Leads` WhatsApp group or reaching out to the lead
-through their official/verified WhatsApp numbers.
+and anything else related to the chapter.
+
+To expedite PR approval, the chapter lead can verify the requested changes by contacting the [GDG Lahore][gdglahore] team
+through the official `GDG/WTM Leads` WhatsApp group or reaching out to the lead through their official/verified WhatsApp
+numbers.
 
 <br>
 
