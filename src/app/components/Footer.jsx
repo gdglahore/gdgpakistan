@@ -16,7 +16,7 @@ export function Footer() {
         <div className="border-t border-zinc-100 pb-16 pt-10">
           <ContainerInner>
             <p className="text-sm text-zinc-400">
-              &copy; {new Date().getFullYear()} Developed with ❤️ by{" "}
+              &copy; {new Date().getFullYear()} Made with ❤️ by{" "}
               <Link
                 href="https://www.gdglahore.com"
                 className="underline"

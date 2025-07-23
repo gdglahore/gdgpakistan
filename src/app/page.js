@@ -1,15 +1,13 @@
 import Link from "next/link";
 import { Container } from "./components/Container";
 import { SocialLink } from "./components/SocialLink";
-import { Button } from "./components/Button";
-import { ArrowDownIcon } from "./components/Icons";
 import { Schema } from "./layouts/RootLayout";
 import Image from "next/image";
 import GDGPakistan from "@/content/chapter-logos/gdgpakistan.png";
 import { DETAILS } from "@/content/content";
 import { Footer } from "./components/Footer";
 
-export default async function HomePage() {
+export default function HomePage() {
   return (
     <>
       <Schema data={DETAILS.schema} />
